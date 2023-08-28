@@ -1,0 +1,38 @@
+.note-list {
+  width: 400px;
+  background: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.help-text {
+  padding: 1rem;
+  color: rgba(57, 57, 57, 0.3);
+}
+
+.note {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note .note-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+
+.note .text {
+  font-size: 1rem;
+  color: #393939;
+}
+
+.note .timestamp {
+  font-size: 0.8rem;
+  color: #39393972;
+}

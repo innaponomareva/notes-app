@@ -1,0 +1,65 @@
+.editor-wrapper {
+  width: 800px;
+  background: #fff;
+  padding: 1rem;
+}
+
+.editor-container {
+  border: 1px solid #ddd;
+  height: 700px;
+  padding: 1rem;
+  color: #393939;
+  overflow-y: scroll;
+}
+
+.toolbar-grid {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.tools-btn {
+  font-size: 1rem;
+  padding: 0.7rem;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.label-btn {
+  color: rgba(57, 57, 57, 0.3);
+  border: 1px solid rgba(57, 57, 57, 0.3);
+}
+
+.label-btn:hover {
+  color: rgba(57, 57, 57);
+  border: 1px solid rgba(57, 57, 57);
+}
+
+.label-btn-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.superFancyBlockquote {
+  color: rgba(97, 165, 255, 0.9);
+  font-family: inherit;
+  font-style: italic;
+  padding-left: 1.5rem;
+}
+
+.leftAlign {
+  text-align: left;
+}
+.rightAlign {
+  text-align: right;
+}
+.centerAlign {
+  text-align: center;
+}
+.justifyAlign {
+  text-align: justify;
+}

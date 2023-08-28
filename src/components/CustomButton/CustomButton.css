@@ -1,0 +1,17 @@
+.custom-btn-container {
+  position: relative;
+}
+
+.custom-btn {
+  width: fit-content;
+  height: fit-content;
+  font-size: 1.2rem;
+  color: rgba(57, 57, 57, 0.3);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  color: rgb(57, 57, 57);
+}
