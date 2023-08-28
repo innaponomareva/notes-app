@@ -13,3 +13,5 @@ The aim is to implement a simple notebook application for creating and storing r
 2. TypeScript
 3. Draft.js
 4. Fortawesome
+
+https://innaponomareva.github.io/notes-app/
